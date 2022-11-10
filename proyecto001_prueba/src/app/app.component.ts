@@ -7,10 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre = 'David Alarcón';
-  edad = 29;
+  edad = 12;
   email = 'da@gmail.com';
   sueldos = [1000, 2000, 3000];
   activo = true;
+  menor = true;
 
   esActivo() {
     if(this.activo)
