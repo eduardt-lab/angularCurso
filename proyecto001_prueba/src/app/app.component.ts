@@ -12,6 +12,7 @@ export class AppComponent {
   sueldos = [1000, 2000, 3000];
   activo = true;
   menor = true;
+  contador = 1;
 
   esActivo() {
     if(this.activo)
@@ -25,5 +26,9 @@ export class AppComponent {
     for(let x=0; x<this.sueldos.length; x++)
       suma+= this.sueldos[x];
     return suma;
+  }
+
+  incrementar(){
+    
   }
 }
